@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск по логам</title>
+</head>
+<body>
+<script>
+    function fetchData() {
+        let address = document.getElementById('address').value
+        let apiUrl = 'http://0.0.0.0:30060/api/v1/logs?address=' + address;
+        document.getElementById('table-container').innerHTML = '';
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(content => {
+                const table = document.createElement('table');
+                table.style.width = '100%';
+                table.style.margin = '10px'
+                table.style.borderCollapse = 'collapse';
+
+                const headerRow = table.insertRow(0);
+                const headers = ['Timestamp', 'Message'];
+                headers.forEach(header => {
+                    const headerCell = headerRow.insertCell();
+                    headerCell.style.border = '1px solid #ddd';
+                    headerCell.style.padding = '8px';
+                    headerCell.textContent = header;
+                });
+
+                content.data.forEach(item => {
+                    const row = table.insertRow();
+                    row.insertCell().textContent = item.timestamp;
+                    row.insertCell().textContent = item.message;
+                });
+
+                const container = document.getElementById('table-container');
+                container.appendChild(table);
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    }
+</script>
+<div id="button-container">
+    <label>Адрес получателя: </label> <input type="text" id="address"/>
+    <button onclick="fetchData()">Найти</button>
+</div>
+<div id="table-container"></div>
+</body>
+</html>

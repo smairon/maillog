@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "testwork"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Feofilaktov <axxil@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncpg = "^0.29.0"
+greenlet = "^3.0.3"
+fire = "^0.7.0"
+envparse = "^0.2.0"
+fastapi = "^0.115.0"
+pydantic-settings = "^2.0.3"
+uvicorn = "^0.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

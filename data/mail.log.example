@@ -1,27 +1,158 @@
-2022-01-01 12:34:56 1 <= user2@example.com id=10 New user registered successfully
-2022-01-02 13:45:00 1 => user1@example.com id=20 Updated profile information
-2022-01-03 14:56:00 1 -> user1@example.com id=30 Sent welcome email
-2022-01-04 15:07:00 1 ** user1@example.com id=40 Password reset requested
-2022-01-04 15:07:00 1 id=50 Password reset requested
-2022-01-05 16:18:00 2 <= user1@example.com id=60 Account locked due to inactivity
-2022-01-06 17:09:01 2 => user2@example.com id=70 New order placed successfully
-2022-01-07 18:10:12 2 -> user2@example.com id=31 Order shipped to customer
-2022-01-08 19:01:23 2 ** user2@example.com id=41 Payment failed due to expired card
-2022-01-09 20:12:34 3 <= user7@example.com id=11 Customer support ticket created
-2022-01-10 21:23:45 3 => user3example.com id=21 Ticket resolved successfully
-2022-01-11 22:34:56 3 => user3example.com id=12 New blog post published
-2022-01-12 23:45:00 4 => user4@example.com id=22 Comment posted on blog
-2022-01-13 00:56:00 4 -> user4@example.com id=33 New product added to catalog
-2022-01-14 01:17:00 4 ** user4@example.com id=44 Product review submitted
-2022-01-15 02:18:00 4 <= user5@example.com id=17 Customer review published
-2022-01-16 03:09:01 5 => user5@example.com id=25 New event created successfully
-2022-01-17 04:01:12 5 -> user5@example.com id=300 Event registration opened
-2022-01-18 05:01:23 5 ** user8@example.com id=401 Event registration closed
-2022-01-19 06:12:34 6 <= user9@example.com id=1001 New job posting created
-2022-01-20 07:23:45 7 => user7@example.com id=221 Job application submitted
-2022-01-21 08:34:56 7 <= user10@example.com id=116 New forum topic created
-2022-01-21 08:34:56 7 id=10 New forum topic created
-2022-01-22 09:45:00 8 => user8@example.com id=2023 Forum post replied to
-2022-01-23 10:56:00 8 -> user8@example.com id=3012 New video uploaded successfully
-2022-01-24 11:18:00 8 ** user8@example.com id=4111 Video processing failed
-2022-01-25 12:02:00 8 <= user5@example.com id=1117 Video published to YouTube
+2012-02-13 14:39:22 1RwtJa-000AFB-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 14:39:22 1RwtJa-000AFB-07 Completed
+2012-02-13 14:39:22 1RookS-000Pg8-VO == udbbwscdnbegrmloghuf@london.com R=dnslookup T=remote_smtp defer (-44): SMTP error from remote mail server after RCPT TO:<udbbwscdnbegrmloghuf@london.com>: host mx0.gmx.com [74.208.5.90]: 450 4.3.2 Too many mails (mail bomb), try again in 1 hour(s) 25 minute(s) and see ( http://portal.gmx.net/serverrules ) {mx-us011}
+2012-02-13 14:39:22 1RookS-000Pg8-VO ** fwxvparobkymnbyemevz@london.com: retry timeout exceeded
+2012-02-13 14:39:22 1QcGoJ-000DxQ-75 Completed
+2012-02-13 14:39:22 1RwtJa-0009RI-2d <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1289 id=120213143629.COM_FM_END.205359@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-000AFJ-3B <= <> R=1RookS-000Pg8-VO U=mailnull P=local S=3958
+2012-02-13 14:39:22 1RwtJa-000AFJ-3B => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 14:39:22 1RwtJa-000AFJ-3B Completed
+2012-02-13 14:39:22 1Rm0kE-00027I-IY == udbbwscdnbegrmloghuf@london.com R=dnslookup T=remote_smtp defer (-44): SMTP error from remote mail server after RCPT TO:<udbbwscdnbegrmloghuf@london.com>: host mx0.gmx.com [74.208.5.90]: 450 4.3.2 Too many mails (mail bomb), try again in 1 hour(s) 24 minute(s) and see ( http://portal.gmx.net/serverrules ) {mx-us014}
+2012-02-13 14:39:22 1Rm0kE-00027I-IY ** fwxvparobkymnbyemevz@london.com: retry timeout exceeded
+2012-02-13 14:39:22 1RwtJa-0009RI-5L <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1260 id=120213143629.COM_FM_END.125492@whois.somehost.ru
+2012-02-13 14:39:22 1RookS-000Pg8-VO Completed
+2012-02-13 14:39:22 1RwtJa-000AGs-7A <= <> R=1Rm0kE-00027I-IY U=mailnull P=local S=2551
+2012-02-13 14:39:22 1RwtJa-0009RI-7W <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=2229 id=120213143628.DOMAIN_FEEDBACK_MAIL.503141@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-000AGs-7A => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 14:39:22 1RwtJa-000AGs-7A Completed
+2012-02-13 14:39:22 1RwtJY-0009RI-Ai == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-Ai == wpsmbwocxmcy@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-CQ == sdhigft@post.cz R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-E4 == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-E4 == ldtyzggfqejxo@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-E4 == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1Rm0kE-00027I-IY Completed
+2012-02-13 14:39:22 1RwtJa-0009RI-9n <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1268 id=120213143628.COM_FM_END.961254@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-D4 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1250 id=120213143628.COM_FM_END.883547@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-F4 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1270 id=120213143628.COM_FM_END.788705@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-Gy <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1220 id=120213143628.COM_FM_END.691493@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-Ic <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1266 id=120213143628.COM_FM_END.613957@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-KL <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1716 id=120213143628.BLOCKED.453962@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJY-0009RI-E4 == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-E4 == jjcvpsc@goldenstudio.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJY-0009RI-Fs == rpjbpure@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:22 1RwtJa-0009RI-MA <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1592 id=120213143618.NIC-LTR-00100.967467@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-OW <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1746 id=120213143618.BLOCKED.894434@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-Qp <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1657 id=120213143617.AUCTION_RENEW.96515@whois.somehost.ru
+2012-02-13 14:39:22 1RwtJa-0009RI-T1 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1658 id=120213143617.AUCTION_RENEW.146146@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJY-0009RI-Fs == nigjbvw@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-JK == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-JK == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-JK == evuusvhsxv@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJa-0009RI-VU <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1703 id=120213143616.AUCTION_RENEW.901122@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-1j <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1703 id=120213143616.AUCTION_RENEW.843481@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-3i <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1673 id=120213143616.AUCTION_RENEW.787620@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-5g <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1673 id=120213143616.AUCTION_RENEW.739890@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-7J <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=4018 id=120213143615.OI_STAT_CHNG_HOSTING_UPDATED.956603@whois.somehost.ru
+2012-02-13 14:39:23 1RwtEg-0002zL-Mh ** thauocarief@yahoo.com R=dnslookup T=remote_smtp: SMTP error from remote mail server after end of data: host mta7.am0.yahoodns.net [66.94.237.64]: 554 delivery error: dd Sorry your message to thauocarief@yahoo.com cannot be delivered. This account has been disabled or discontinued [#102]. - mta1229.mail.mud.yahoo.com
+2012-02-13 14:39:23 1RwtJb-0009RI-9N <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1655 id=120213143615.AUCTION_RENEW.609165@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-000Ab2-9u <= <> R=1RwtEg-0002zL-Mh U=mailnull P=local S=2303
+2012-02-13 14:39:23 1RwtJb-000Ab2-9u => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 14:39:23 1RwtJb-000Ab2-9u Completed
+2012-02-13 14:39:23 1RwtJY-0009RI-JK == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-NI == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-NI == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJb-0009RI-Bg <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1655 id=120213143615.AUCTION_RENEW.560480@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-Dp <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1655 id=120213143615.AUCTION_RENEW.179671@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-GO <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1655 id=120213143615.AUCTION_RENEW.114303@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-JN <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1661 id=120213143614.AUCTION_RENEW.204277@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJY-0009RI-NI == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJY-0009RI-NI == evuusvhsxv@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:23 1RwtJb-0009RI-Lq <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1661 id=120213143614.AUCTION_RENEW.152953@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-Oo <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1687 id=120213143612.AUCTION_RENEW.81706@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJb-0009RI-Ry <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1687 id=120213143612.AUCTION_RENEW.21183@whois.somehost.ru
+2012-02-13 14:39:23 1RwtJY-0009RI-RR == mbpmoasgkrovo@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJb-0009RI-UU <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1637 id=120213143607.AUCTION_RENEW.892011@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-0t <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1637 id=120213143607.AUCTION_RENEW.848039@whois.somehost.ru
+2012-02-13 14:39:24 1RvhTH-000B9y-TD giaterran.bir.ru [194.85.61.78] Operation timed out
+2012-02-13 14:39:24 1RwtJc-0009RI-36 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1679 id=120213143606.AUCTION_RENEW.913234@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-5C <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1679 id=120213143606.AUCTION_RENEW.867881@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-79 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1676 id=120213143604.AUCTION_RENEW.816792@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJY-0009RI-TF == mbpmoasgkrovo@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJc-0009RI-8g <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1676 id=120213143604.AUCTION_RENEW.766618@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-BN <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1366 id=120213143602.COM_FM_END.972717@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-Du <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1279 id=120213143602.COM_FM_END.871993@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJc-0009RI-G6 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1280 id=120213143602.COM_FM_END.781370@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJY-0009RI-VC == mbpmoasgkrovo@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-1z == npwvwvc@list.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-4c == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-4c == mkbdybrfjajrs@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-4c == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJc-0009RI-I5 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1260 id=120213143602.COM_FM_END.73812@whois.somehost.ru
+2012-02-13 14:39:24 1RwtJZ-0009RI-4c == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-9o == npwvwvc@list.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-EG == tmecwjc@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJZ-0009RI-JL == tmecwjc@yandex.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:24 1RwtJc-0009RI-So <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1268 id=120213143602.COM_FM_END.700582@whois.somehost.ru
+2012-02-13 14:39:24 1Rwkam-0005kz-7z agugu.ru [193.232.158.145] Operation timed out
+2012-02-13 14:39:25 1RwtJc-0009RI-VM <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1219 id=120213143602.COM_FM_END.610463@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-1D <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1225 id=120213143602.COM_FM_END.514627@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-3Q <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1223 id=120213143602.COM_FM_END.420767@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJZ-0009RI-PE == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJd-0009RI-4n <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1266 id=120213143602.COM_FM_END.331709@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-7Y <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1247 id=120213143602.COM_FM_END.242102@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-9q <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1239 id=120213143602.COM_FM_END.159124@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-CJ <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1221 id=120213143601.COM_FM_END.980944@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJZ-0009RI-RX == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJd-0009RI-EU <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1245 id=120213143601.COM_FM_END.901269@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-Gu <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1247 id=120213143601.COM_FM_END.820766@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-J0 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1241 id=120213143601.COM_FM_END.715766@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-Lf <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1246 id=120213143601.COM_FM_END.66948@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJZ-0009RI-Te == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJZ-0009RI-LB == hjmm@95-95.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJZ-0009RI-LB == ezksz@email.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJZ-0009RI-Vl == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJZ-0009RI-Vl == kltkmnjqq@inbox.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwtJZ-0009RI-Vl == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:25 1RwRAF-0006Nr-Ed cejeado.vladikavkaz.ru [109.70.26.36] Operation timed out
+2012-02-13 14:39:25 1RwtJd-0009RI-Ns <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1219 id=120213143601.COM_FM_END.620335@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-QX <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1238 id=120213143601.COM_FM_END.497713@whois.somehost.ru
+2012-02-13 14:39:25 1RwtJd-0009RI-Su <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1235 id=120213143601.COM_FM_END.382042@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJd-0009RI-VB <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1265 id=120213143601.COM_FM_END.307610@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJZ-0009RI-Vl == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJa-0009RI-2d == bnkahhv@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJa-0009RI-2d == kltkmnjqq@inbox.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJa-0009RI-2d == eqkhojhkgag@rambler.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJe-0009RI-17 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1257 id=120213143601.COM_FM_END.229967@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-3I <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1261 id=120213143601.COM_FM_END.143413@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-51 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1257 id=120213143600.COM_FM_END.971813@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-7J <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1255 id=120213143600.COM_FM_END.90174@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJa-0009RI-2d == grereyjbpddf@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJe-0009RI-9E <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1261 id=120213143600.COM_FM_END.882525@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-C6 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1255 id=120213143600.COM_FM_END.792092@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-Dr <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1234 id=120213143600.COM_FM_END.691531@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-Fw <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1253 id=120213143600.COM_FM_END.606238@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-I7 <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1259 id=120213143600.COM_FM_END.530574@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJa-0009RI-7W == xgjdpwhkj@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJe-0009RI-JZ <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1255 id=120213143600.COM_FM_END.446237@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-Lq <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1251 id=120213143600.COM_FM_END.330869@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-Nd <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1249 id=120213143600.COM_FM_END.246730@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-PR <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1249 id=120213143600.COM_FM_END.164929@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJe-0009RI-Qq <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1251 id=120213143600.COM_FM_END.10790@whois.somehost.ru
+2012-02-13 14:39:26 1RwtJa-0009RI-9n == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJa-0009RI-D4 == etrtemni@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:26 1RwtJa-0009RI-D4 == ausktgp@prokhorov.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJe-0009RI-TD <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1254 id=120213143559.COM_FM_END.914529@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-4G <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1252 id=120213143559.COM_FM_END.821523@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJa-0009RI-D4 == llmvhenc@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJf-0009RI-6a <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1256 id=120213143559.COM_FM_END.734208@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-8l <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1254 id=120213143559.COM_FM_END.648458@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-BS <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1256 id=120213143559.COM_FM_END.560771@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-Df <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1244 id=120213143559.COM_FM_END.462444@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJa-0009RI-F4 == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJf-0009RI-Fy <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1246 id=120213143559.COM_FM_END.43681@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJY-0009RI-Ha == cxfiur@boomler.com R=dnslookup defer (-1): host lookup did not complete
+2012-02-13 14:39:27 1RwtJf-0009RI-IP <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1221 id=120213143559.COM_FM_END.362240@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-LL <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1247 id=120213143559.COM_FM_END.281904@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJf-0009RI-Nm <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1251 id=120213143559.COM_FM_END.202548@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJa-0009RI-Ic == xmdnwgppabwp@gmail.com R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-KL == iuh@mtw.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJf-0009RI-QO <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1265 id=120213143559.COM_FM_END.119995@whois.somehost.ru
+2012-02-13 14:39:27 1RwtJa-0009RI-5L == hczfpui@vatutin.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-MA == dtme@1gb.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-MA == fhamok@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-Gy == bmu@ostapenko.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-Gy == kcyrglgy@mail.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-OW == zcjofvyu@nvhost.ru R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-Qp == wfz@ya.gs R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set
+2012-02-13 14:39:27 1RwtJa-0009RI-T1 == wfz@ya.gs R=dnslookup T=remote_smtp defer (-1): domain matches queue_smtp_domains, or -odqs set

@@ -8,7 +8,7 @@ import re
 
 class LogItem(typing.TypedDict):
     dt: datetime.datetime
-    id: str
+    id: str | None
     int_id: str
     flag: str | None
     address: str | None
@@ -46,9 +46,11 @@ class MailLog:
 
     def _parse_line(self, line: str) -> LogItem:
         row = line.split()
+        groups = re.search(r'id=([^ ]+)', line)
         return dict(
             dt=datetime.datetime.strptime(" ".join(row[:2]), self.DATE_FORMAT),
-            id=re.search(r'id=([^ ]+)', line).group(1),
+            # Не во всех строчках представленного лога есть значение id
+            id=groups.group(1) if groups is not None else None,
             int_id=row[2],
             flag=row[3] if row[3] in self._flags else None,
             address=row[4] if row[3] in self._flags else None,
@@ -77,20 +79,24 @@ class LogsProcessor:
          В большинстве случаев подойдет синхронный подход.
         """
         for table, item in self._log:
-            data[table].append(
-                getattr(self, f'_format_{table}_row')(item)
-            )
+            row = getattr(self, f'_format_{table}_row')(item)
+            if row:
+                data[table].append(row)
         await self._store(data)
 
     @staticmethod
     def _format_message_row(item: LogItem):
-        return (
-            item['dt'],
-            item['id'],
-            item['int_id'],
-            item['log_string'],
-            None
-        )
+        # В БД данное поле Not Null поэтому такой костыль,
+        # на практике стоит уточнить у заказчика что делать с сообщениями где id не найден
+        # пока просто пропускаем
+        if item['id'] is not None:
+            return (
+                item['dt'],
+                item['id'],
+                item['int_id'],
+                item['log_string'],
+                None # Про поле статуса ничего в ТЗ не сказано, на практике тоже стоит уточнить зачем оно
+            )
 
     @staticmethod
     def _format_log_row(item: LogItem):

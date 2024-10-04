@@ -35,6 +35,10 @@
 
                 const container = document.getElementById('table-container');
                 container.appendChild(table);
+                if (content.meta.quantity > 100) {
+                    container.appendChild(document.createElement('div'))
+                        .textContent = `Выведены только первые 100 записей`;
+                }
             })
             .catch(error => console.error('Error fetching data:', error));
     }
